@@ -3,7 +3,7 @@ import React from 'react';
 
 const FavoriteScreen = () => {
   return (
-    <View>
+    <View style={{flex: 1, backgroundColor: 'lightblue'}}>
       <Text>FavoriteScreen</Text>
     </View>
   );
