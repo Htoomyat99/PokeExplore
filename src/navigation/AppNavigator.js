@@ -1,8 +1,11 @@
-import {View, Text} from 'react-native';
 import React, {useState} from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import HomeTabNavigator from './Tab/HomeTabNavigator';
+
+//context
 import {AuthContext} from '../context/Context';
+
+//tab
+import HomeTabNavigator from './Tab/HomeTabNavigator';
 
 const AppNavigator = () => {
   const [lang, setLang] = useState('en');

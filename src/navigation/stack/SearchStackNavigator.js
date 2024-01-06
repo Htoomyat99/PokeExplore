@@ -1,6 +1,7 @@
-import {View, Text} from 'react-native';
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+
+//Screen
 import SearchScreen from '../../pages/SearchScreen';
 import DetailScreen from '../../pages/DetailScreen';
 
