@@ -35,6 +35,6 @@ const style = StyleSheet.create({
     fontSize: hp(2.5),
     fontFamily: 'Roboto-Bold',
     color: pokeColor.primary,
-    marginTop: hp(2),
+    marginTop: hp(3),
   },
 });
