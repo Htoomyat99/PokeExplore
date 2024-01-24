@@ -26,7 +26,7 @@ const HomeScreen = () => {
   const signal = controller.signal;
 
   useEffect(() => {
-    fetchPokeCard();
+    // fetchPokeCard();
   }, []);
 
   const fetchPokeCard = async () => {
